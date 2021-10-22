@@ -15,5 +15,7 @@ namespace pantsChecker
             Style = style;
             Size = new List<int>();
         }
+
+        //Makes list bool inside of class to access this list
     }
 }

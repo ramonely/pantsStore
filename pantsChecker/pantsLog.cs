@@ -86,28 +86,33 @@ namespace pantsChecker
         {
             Console.WriteLine("What style pants do you want to add?");
             string userStyleA = Console.ReadLine();
-            Console.WriteLine("\nWhat size are your adding?");
+            Pants userP = new Pants(userStyleA);
 
-            int userSizeA;
-            bool testing = true;
-            while (testing)
+            Console.WriteLine("\nHow many sizes are you adding?");
+            bool testing3 = true;
+            int uSizes;
+            while (testing3)
             {
-                string userSizeA1 = Console.ReadLine();
-                bool parseSuccess = int.TryParse(userSizeA1, out userSizeA);
-                if (parseSuccess)
+                string number3 = Console.ReadLine();
+
+                bool parseSuccess3 = int.TryParse(number3, out uSizes);
+                if (parseSuccess3)
+                    for (int i = 0; i < uSizes; i++)
+                    {
+                        Console.WriteLine("\nEnter the size your adding: ");
+                        int addSizesNow = Convert.ToInt32(Console.ReadLine());
+                        userP.Size.Add(addSizesNow);
+                        testing3 = false;
+                    }
+                else if (parseSuccess3 == false)
                 {
-                    Pants userP = new Pants(userStyleA);
-                    userP.Size.Add(userSizeA);
-                    newPants.Add(userP);
-                    Console.WriteLine("\nThat style and size has now been added.\n");
-                    welcome();
-                    break;
-                }
-                else if (parseSuccess == false)
-                {
-                    Console.WriteLine("Please only enter a number.");
+                    Console.WriteLine("\nOnly enter a number.");
                 }
             }
+
+            newPants.Add(userP);
+            Console.WriteLine();
+            welcome();
         }
 
         public void checkPants()
