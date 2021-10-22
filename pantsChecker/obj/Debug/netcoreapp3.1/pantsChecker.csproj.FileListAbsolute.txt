@@ -1,0 +1,14 @@
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\bin\Debug\netcoreapp3.1\pantsChecker.exe
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\bin\Debug\netcoreapp3.1\pantsChecker.deps.json
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\bin\Debug\netcoreapp3.1\pantsChecker.runtimeconfig.json
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\bin\Debug\netcoreapp3.1\pantsChecker.runtimeconfig.dev.json
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\bin\Debug\netcoreapp3.1\pantsChecker.dll
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\bin\Debug\netcoreapp3.1\pantsChecker.pdb
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\obj\Debug\netcoreapp3.1\pantsChecker.csproj.AssemblyReference.cache
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\obj\Debug\netcoreapp3.1\pantsChecker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\obj\Debug\netcoreapp3.1\pantsChecker.AssemblyInfoInputs.cache
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\obj\Debug\netcoreapp3.1\pantsChecker.AssemblyInfo.cs
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\obj\Debug\netcoreapp3.1\pantsChecker.csproj.CoreCompileInputs.cache
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\obj\Debug\netcoreapp3.1\pantsChecker.dll
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\obj\Debug\netcoreapp3.1\pantsChecker.pdb
+C:\Users\RLynch\source\repos\pantsChecker\pantsChecker\obj\Debug\netcoreapp3.1\pantsChecker.genruntimeconfig.cache
